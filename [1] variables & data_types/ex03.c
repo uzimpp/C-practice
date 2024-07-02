@@ -5,9 +5,10 @@ int main(void)
     char character;
 
     character = 'a';
-    printf("%c\n", character + 1);
-    printf("%c\n", character + 2);
+    printf("%c\n", character);
+    printf("%d\n", character);
+    printf("%c\n", '0');
+    printf("%d\n", '0');
     printf("%c\n", 48);
-    printf("%c\n", 72);
     //hint "ASCII"
 }
