@@ -13,11 +13,8 @@
 
 void ft_recnbr(int nbr)
 {
-    if (nbr == 0)
-    {
+    if (nbr == 1)
         printf("The natural numbers are :");
-        nbr++;
-    }
     if (1 <= nbr && nbr <= 50)
     {
         printf(" %d", nbr);
@@ -27,6 +24,6 @@ void ft_recnbr(int nbr)
 
 int main(void)
 {
-    ft_recnbr(0);
+    ft_recnbr(1);
     return (0);
 }
