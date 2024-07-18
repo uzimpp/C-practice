@@ -6,10 +6,10 @@ int main(int argc, char const *argv[])
 
     i = 0;
     printf("%d\n", argc);
-    while (*argv[i] != '\0')
+    while (*argv != NULL)
     {
-        printf("%s\n", argv[i]);
-        i++;
+        printf("%s\n", *argv);
+        argv++;
     }
     return (0);
 }
